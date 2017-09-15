@@ -15,4 +15,7 @@ push:
         cmd: node pipeline/source/app.js
 whatever:
   steps:
-    - mlebkowski/bluegreen@1.0.1
+    - mlebkowski/bluegreen@1.0.1:
+      DOCKERCLOUD_USER: $DOCKERCLOUD_USER
+      DOCKERCLOUD_PASS: $DOCKERCLOUD_PASS
+
