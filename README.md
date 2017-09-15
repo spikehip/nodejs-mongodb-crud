@@ -39,3 +39,7 @@ Wercker environment properties:
 
 The Universal Permissive License (UPL), Version 1.0
 
+### Notes
+
+docker run --rm --name mongodb -d mongo
+docker run -p 3000:3000 --rm --link mongodb:mongodb -d spikehip/nodejs-mongodb-crud
