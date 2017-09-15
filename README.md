@@ -1,5 +1,8 @@
 # Node.js-Express-MongoDB CRUD sample Application
 
+[![wercker status](https://app.wercker.com/status/fab35822b24d218999e5a7a265b04ee0/m/master "wercker status")](https://app.wercker.com/project/byKey/fab35822b24d218999e5a7a265b04ee0)
+
+
 This is a simple Node.js CRUD application using MongoDB.
 
 It is based on
