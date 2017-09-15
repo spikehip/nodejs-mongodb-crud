@@ -13,3 +13,6 @@ push:
         repository: $DOCKER_REPOSITORY
         registry: https://index.docker.io/v1/
         cmd: node pipeline/source/app.js
+whatever:
+  steps:
+    - mlebkowski/bluegreen@1.0.1
